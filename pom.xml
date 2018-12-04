@@ -103,7 +103,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>taglets</module>
         <module>generator</module>
         <module>xslt-runner</module>
         <module>xslt-runner-task</module>

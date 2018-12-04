@@ -150,22 +150,6 @@
 					</links>
 					<splitindex>true</splitindex>
 					<windowtitle>ODFDOM API v${project.version} - http://incubator.apache.org/odftoolkit/</windowtitle>
-					<taglets>
-						<taglet>
-							<tagletClass>org.odftoolkit.odfdom.taglet.OdfElementTaglet</tagletClass>
-						</taglet>
-						<taglet>
-							<tagletClass>org.odftoolkit.odfdom.taglet.OdfAttributeTaglet</tagletClass>
-						</taglet>
-						<taglet>
-							<tagletClass>org.odftoolkit.odfdom.taglet.OdfDatatypeTaglet</tagletClass>
-						</taglet>
-					</taglets>
-					<tagletArtifact>
-						<groupId>${project.groupId}</groupId>
-						<artifactId>taglets</artifactId>
-						<version>${project.version}</version>
-					</tagletArtifact>
 				</configuration>
 				<executions> 
 					<execution>
